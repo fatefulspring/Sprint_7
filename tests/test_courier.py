@@ -2,9 +2,9 @@ import requests
 import pytest
 import allure
 
-from .data import COURIER_MESSAGE_INVALID_LOGIN, COURIER_MESSAGE_EMPTY_FIELD
-from .helpers import register_new_courier_and_return_login_password
-from .urls import COURIER_URL
+from helpers.data import COURIER_MESSAGE_INVALID_LOGIN, COURIER_MESSAGE_EMPTY_FIELD
+from helpers.utils import register_new_courier_and_return_login_password
+from helpers.urls import COURIER_URL
 
 
 @allure.feature('Курьер')

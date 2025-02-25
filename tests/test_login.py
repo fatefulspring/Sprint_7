@@ -1,9 +1,9 @@
 import requests
 import allure
 
-from .data import COURIER_MESSAGE_LOGIN_NOT_FOUND, COURIER_MESSAGE_EMPTY_LOGIN
-from .helpers import register_new_courier_and_return_login_password
-from .urls import COURIER_LOGIN_URL
+from helpers.data import COURIER_MESSAGE_LOGIN_NOT_FOUND, COURIER_MESSAGE_EMPTY_LOGIN
+from helpers.utils import register_new_courier_and_return_login_password
+from helpers.urls import COURIER_LOGIN_URL
 
 
 @allure.feature('Login')

@@ -3,8 +3,8 @@ import pytest
 import allure
 from copy import copy
 
-from .data import ORDER_CREATE_PAYLOAD, ORDER_LIST_KEYS
-from .urls import ORDER_URL
+from helpers.data import ORDER_CREATE_PAYLOAD, ORDER_LIST_KEYS
+from helpers.urls import ORDER_URL
 
 
 @allure.feature('Заказ')
